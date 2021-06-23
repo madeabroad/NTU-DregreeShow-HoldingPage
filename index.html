@@ -6,7 +6,7 @@
   <title>NTU Architecture Subject Group 2021</title>
 
 <style type="text/css">
-div {
+.flex {
         display: flex;
         height: 98vh;
         width: 100%;
@@ -22,6 +22,7 @@ div {
   bottom: 0px;
   width: 100%;
   height: 2px;
+  position: fixed;
 }
 
 .yellow {
@@ -79,7 +80,6 @@ p {
 h1 {
         margin-bottom:0px;
         margin-top: 0px;
-        width: 900px;
         font-family: "Suisse Int'l";
         font-style: normal;
         font-weight: bold;
@@ -88,6 +88,39 @@ h1 {
         letter-spacing: -0.02em;
         text-align: center; 
         color: white;
+}
+
+svg {
+  width: 131px;
+  height: 154px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+          margin-bottom:0px;
+          margin-top: 0px;
+          font-family: "Suisse Int'l";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 30px;
+          line-height: 32px;
+          letter-spacing: -0.02em;
+          text-align: center; 
+          color: white;
+  }
+  p {
+          font-family: "Suisse Int'l";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 31px;  
+          margin-top: 0px;
+          color: white;
+  }
+  svg {
+    width: 81px;
+    height: 80px;
+  }
 }
 body {
   background-color: black;
@@ -100,8 +133,8 @@ body {
 <body>
 
  
-  <div>
-    <svg width="131" height="154" viewBox="0 0 131 154" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <div class="flex">
+    <svg viewBox="0 0 131 154" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M131 47.7583C131 59.7459 131.038 71.7718 131 83.7593C130.923 99.5768 126.125 113.747 115.877 125.888C108.316 134.812 99.0273 141.591 88.3953 146.301C81.947 149.174 75.0765 151.089 68.4363 153.502C66.1333 154.344 63.9455 154 61.6809 153.387C44.9461 148.906 29.8617 141.476 17.7712 128.799C7.79168 118.343 2.03428 105.82 0.57574 91.4191C0.230296 88.0488 0.0767653 84.6785 0.0767653 81.3082C0.0383827 56.8352 0.0767653 32.4005 0 7.92743C0 5.97419 0.537357 5.20821 2.53326 4.78692C13.3188 2.60388 24.2578 1.26342 35.2353 0.803831C49.2833 0.229347 63.3698 -0.115343 77.4178 -0.00044651C94.0375 0.152749 110.619 1.34002 127.008 4.48053C131 5.24651 131 5.20821 131 9.2296C131 22.0597 131 34.8899 131 47.7583Z" fill="#E40F51"/>
     </svg>
         
